@@ -1,0 +1,769 @@
+文件夹 PATH 列表
+卷序列号为 00000200 3CD2:D088
+C:.
+│  javaapk.com文件列表生成工具.bat
+│  JavaApk源码说明.txt
+│  目录列表.txt
+│  
+└─QQ
+    │  .classpath
+    │  .project
+    │  AndroidManifest.xml
+    │  ic_launcher-web.png
+    │  JavaApk源码说明.txt
+    │  lint.xml
+    │  proguard-project.txt
+    │  project.properties
+    │  
+    ├─.settings
+    │      org.eclipse.core.resources.prefs
+    │      
+    ├─assets
+    │      dengziqi.jpg
+    │      hangxiaozhu.jpg
+    │      jingtian.jpg
+    │      kangyikun.jpg
+    │      liuyifei.jpg
+    │      songhuiqiao.jpg
+    │      songqian.jpg
+    │      zhangzetian.jpg
+    │      
+    ├─bin
+    │  │  AndroidManifest.xml
+    │  │  classes.dex
+    │  │  QQ.apk
+    │  │  resources.ap_
+    │  │  
+    │  ├─classes
+    │  │  └─com
+    │  │      └─qq
+    │  │          │  AsyncTaskBase.class
+    │  │          │  BuildConfig.class
+    │  │          │  MainActivity$1.class
+    │  │          │  MainActivity$2.class
+    │  │          │  MainActivity$3.class
+    │  │          │  MainActivity$4.class
+    │  │          │  MainActivity$5.class
+    │  │          │  MainActivity$6.class
+    │  │          │  MainActivity$7.class
+    │  │          │  MainActivity.class
+    │  │          │  R$anim.class
+    │  │          │  R$attr.class
+    │  │          │  R$color.class
+    │  │          │  R$dimen.class
+    │  │          │  R$drawable.class
+    │  │          │  R$id.class
+    │  │          │  R$layout.class
+    │  │          │  R$menu.class
+    │  │          │  R$raw.class
+    │  │          │  R$string.class
+    │  │          │  R$style.class
+    │  │          │  R.class
+    │  │          │  
+    │  │          ├─activity
+    │  │          │      ErcodeScanActivity$1.class
+    │  │          │      ErcodeScanActivity$2.class
+    │  │          │      ErcodeScanActivity$3.class
+    │  │          │      ErcodeScanActivity$4.class
+    │  │          │      ErcodeScanActivity.class
+    │  │          │      LoginActivity$1.class
+    │  │          │      LoginActivity$2.class
+    │  │          │      LoginActivity.class
+    │  │          │      QQconstactActivity.class
+    │  │          │      RegisterInfoActivity$1.class
+    │  │          │      RegisterInfoActivity$2.class
+    │  │          │      RegisterInfoActivity.class
+    │  │          │      RegisterPhoneActivity$1.class
+    │  │          │      RegisterPhoneActivity$2.class
+    │  │          │      RegisterPhoneActivity.class
+    │  │          │      RegisterResultActivity$1.class
+    │  │          │      RegisterResultActivity$2.class
+    │  │          │      RegisterResultActivity$3.class
+    │  │          │      RegisterResultActivity.class
+    │  │          │      WaterCameraActivity$1.class
+    │  │          │      WaterCameraActivity$MyOnPagerChangeListener.class
+    │  │          │      WaterCameraActivity$MyPictureCallback.class
+    │  │          │      WaterCameraActivity$MySurfaceViewCallback.class
+    │  │          │      WaterCameraActivity$MyViewPagerAdapter.class
+    │  │          │      WaterCameraActivity.class
+    │  │          │      WaterPhotoActivity$1.class
+    │  │          │      WaterPhotoActivity$2.class
+    │  │          │      WaterPhotoActivity$3.class
+    │  │          │      WaterPhotoActivity$MyOntaouchListener.class
+    │  │          │      WaterPhotoActivity.class
+    │  │          │      WelcomeActivity$1.class
+    │  │          │      WelcomeActivity.class
+    │  │          │      WiFiActivity$1.class
+    │  │          │      WiFiActivity$2.class
+    │  │          │      WiFiActivity$3.class
+    │  │          │      WiFiActivity$4.class
+    │  │          │      WiFiActivity.class
+    │  │          │      
+    │  │          ├─adapter
+    │  │          │      CallAdapter.class
+    │  │          │      ConstactAdapter.class
+    │  │          │      ExpAdapter$1.class
+    │  │          │      ExpAdapter$ChildHolder.class
+    │  │          │      ExpAdapter$GroupHolder.class
+    │  │          │      ExpAdapter.class
+    │  │          │      NewsAdapter$1.class
+    │  │          │      NewsAdapter$Holder.class
+    │  │          │      NewsAdapter.class
+    │  │          │      QQconstactAdapter$1.class
+    │  │          │      QQconstactAdapter$Holder.class
+    │  │          │      QQconstactAdapter.class
+    │  │          │      QQfriendAdapter$1.class
+    │  │          │      QQfriendAdapter$ViewHolder.class
+    │  │          │      QQfriendAdapter.class
+    │  │          │      
+    │  │          ├─bean
+    │  │          │      RecentChat.class
+    │  │          │      
+    │  │          ├─ercode
+    │  │          │      AutoFocusCallback.class
+    │  │          │      CameraConfigurationManager.class
+    │  │          │      CameraManager.class
+    │  │          │      CaptureActivityHandler$State.class
+    │  │          │      CaptureActivityHandler.class
+    │  │          │      DecodeFormatManager.class
+    │  │          │      DecodeHandler.class
+    │  │          │      DecodeThread.class
+    │  │          │      FinishListener.class
+    │  │          │      FlashlightManager.class
+    │  │          │      InactivityTimer$DaemonThreadFactory.class
+    │  │          │      InactivityTimer.class
+    │  │          │      Intents$Encode.class
+    │  │          │      Intents$Scan.class
+    │  │          │      Intents$SearchBookContents.class
+    │  │          │      Intents$Share.class
+    │  │          │      Intents$WifiConnect.class
+    │  │          │      Intents.class
+    │  │          │      PlanarYUVLuminanceSource.class
+    │  │          │      PreviewCallback.class
+    │  │          │      ViewfinderResultPointCallback.class
+    │  │          │      
+    │  │          ├─fragment
+    │  │          │      CallFragment$1.class
+    │  │          │      CallFragment$2.class
+    │  │          │      CallFragment$CallAsyncTask.class
+    │  │          │      CallFragment.class
+    │  │          │      ConstactFatherFragment$1.class
+    │  │          │      ConstactFatherFragment$2.class
+    │  │          │      ConstactFatherFragment$3.class
+    │  │          │      ConstactFatherFragment.class
+    │  │          │      ConstactFragment$1.class
+    │  │          │      ConstactFragment$AsyncTaskLoading.class
+    │  │          │      ConstactFragment.class
+    │  │          │      DynamicFragment$1.class
+    │  │          │      DynamicFragment.class
+    │  │          │      NewsFatherFragment$1.class
+    │  │          │      NewsFatherFragment$2.class
+    │  │          │      NewsFatherFragment$3.class
+    │  │          │      NewsFatherFragment$4.class
+    │  │          │      NewsFatherFragment$5.class
+    │  │          │      NewsFatherFragment$6.class
+    │  │          │      NewsFatherFragment.class
+    │  │          │      NewsFragment$1.class
+    │  │          │      NewsFragment$AsyncRefresh.class
+    │  │          │      NewsFragment$NewsAsyncTask.class
+    │  │          │      NewsFragment.class
+    │  │          │      PhoneConstactFragment$1.class
+    │  │          │      PhoneConstactFragment$2.class
+    │  │          │      PhoneConstactFragment$AsyncTaskConstact$1.class
+    │  │          │      PhoneConstactFragment$AsyncTaskConstact.class
+    │  │          │      PhoneConstactFragment.class
+    │  │          │      QQconstactFragment$1.class
+    │  │          │      QQconstactFragment$AsyncTaskLoad.class
+    │  │          │      QQconstactFragment.class
+    │  │          │      QQfriendFragment$1.class
+    │  │          │      QQfriendFragment$2.class
+    │  │          │      QQfriendFragment$3.class
+    │  │          │      QQfriendFragment$4.class
+    │  │          │      QQfriendFragment$AsyncTaskQQConstact$1.class
+    │  │          │      QQfriendFragment$AsyncTaskQQConstact.class
+    │  │          │      QQfriendFragment.class
+    │  │          │      SettingFragment.class
+    │  │          │      WIFIFragment.class
+    │  │          │      
+    │  │          ├─sort
+    │  │          │      CharacterParser.class
+    │  │          │      ClearEditText.class
+    │  │          │      PinyinComparator.class
+    │  │          │      SideBar$OnTouchingLetterChangedListener.class
+    │  │          │      SideBar.class
+    │  │          │      SortAdapter$ViewHolder.class
+    │  │          │      SortAdapter.class
+    │  │          │      SortModel.class
+    │  │          │      
+    │  │          ├─test
+    │  │          │      SDManager.class
+    │  │          │      TestData.class
+    │  │          │      
+    │  │          ├─util
+    │  │          │      ConstactUtil.class
+    │  │          │      FileUtil$1.class
+    │  │          │      FileUtil$SDCardInfo.class
+    │  │          │      FileUtil.class
+    │  │          │      ImgUtil$1.class
+    │  │          │      ImgUtil$2$1.class
+    │  │          │      ImgUtil$2.class
+    │  │          │      ImgUtil$OnLoadBitmapListener.class
+    │  │          │      ImgUtil.class
+    │  │          │      RemoteUtil$MediaScannerNotifier.class
+    │  │          │      RemoteUtil.class
+    │  │          │      SpUtil.class
+    │  │          │      SystemMethod.class
+    │  │          │      
+    │  │          ├─view
+    │  │          │      CustomerScrollView.class
+    │  │          │      CustomListView$1.class
+    │  │          │      CustomListView$OnLoadMoreListener.class
+    │  │          │      CustomListView$OnRefreshListener.class
+    │  │          │      CustomListView.class
+    │  │          │      ErcodeScanView.class
+    │  │          │      IphoneTreeView$IphoneTreeHeaderAdapter.class
+    │  │          │      IphoneTreeView.class
+    │  │          │      LoadingView.class
+    │  │          │      TextURLView.class
+    │  │          │      TitleBarView.class
+    │  │          │      WaterView.class
+    │  │          │      
+    │  │          └─wifi
+    │  │              ├─cmd
+    │  │              │      CmdAbstractListing.class
+    │  │              │      CmdAbstractStore.class
+    │  │              │      CmdAPPE.class
+    │  │              │      CmdCDUP.class
+    │  │              │      CmdCWD.class
+    │  │              │      CmdDELE.class
+    │  │              │      CmdFEAT.class
+    │  │              │      CmdLIST.class
+    │  │              │      CmdMap.class
+    │  │              │      CmdMKD.class
+    │  │              │      CmdNLST.class
+    │  │              │      CmdNOOP.class
+    │  │              │      CmdOPTS.class
+    │  │              │      CmdPASS.class
+    │  │              │      CmdPASV.class
+    │  │              │      CmdPORT.class
+    │  │              │      CmdPWD.class
+    │  │              │      CmdQUIT.class
+    │  │              │      CmdRETR.class
+    │  │              │      CmdRMD.class
+    │  │              │      CmdRNFR.class
+    │  │              │      CmdRNTO.class
+    │  │              │      CmdSIZE.class
+    │  │              │      CmdSTOR.class
+    │  │              │      CmdSYST.class
+    │  │              │      CmdTemplate.class
+    │  │              │      CmdTYPE.class
+    │  │              │      CmdUSER.class
+    │  │              │      FtpCmd.class
+    │  │              │      
+    │  │              └─foregin
+    │  │                      Account.class
+    │  │                      DataSocketFactory.class
+    │  │                      Defaults.class
+    │  │                      FileInfo.class
+    │  │                      FTPServerService$1.class
+    │  │                      FTPServerService.class
+    │  │                      GlobalConsts.class
+    │  │                      Globals.class
+    │  │                      NormalDataSocketFactory.class
+    │  │                      ProxyConnector$State.class
+    │  │                      ProxyConnector.class
+    │  │                      ProxyDataSocketFactory.class
+    │  │                      ProxyDataSocketInfo.class
+    │  │                      SessionThread$Source.class
+    │  │                      SessionThread.class
+    │  │                      Settings.class
+    │  │                      TcpListener.class
+    │  │                      UiUpdater.class
+    │  │                      
+    │  ├─dexedLibs
+    │  │      android-support-v4-b93178af51582885e0952a67ed7a4b77.jar
+    │  │      zxing-1.6-65a282da818e38fe2b0939c6c5023a73.jar
+    │  │      
+    │  └─res
+    │      └─crunch
+    │          ├─drawable-hdpi
+    │          │      acm_inputbox.9.png
+    │          │      add_contacts_look_for_similarity.png
+    │          │      bar_light_pressed.png
+    │          │      boss_unipay_icon_back.png
+    │          │      btn_bottom_last_normal.9.png
+    │          │      btn_bottom_last_pressed.9.png
+    │          │      button_details_gohome.png
+    │          │      channel_qq.png
+    │          │      chat_tool_photo.png
+    │          │      checkbox_normal.png
+    │          │      checkbox_null.png
+    │          │      connect.png
+    │          │      contact_list_buddy_item_bg.9.png
+    │          │      conversation_options_camera.png
+    │          │      conversation_options_multichat.png
+    │          │      conversation_options_qr.png
+    │          │      conversation_options_secretfile.png
+    │          │      conversation_options_share_photo.png
+    │          │      disconnect.png
+    │          │      emotionstore_progresscancelbtn.png
+    │          │      h001.png
+    │          │      icon.png
+    │          │      ic_launcher.png
+    │          │      indicator_expanded.9.png
+    │          │      indicator_unexpanded.9.png
+    │          │      ipaddress_bg.9.png
+    │          │      lbs_popup_bg.9.png
+    │          │      list_conversation_press.9.png
+    │          │      login_default_avatar.png
+    │          │      notification.png
+    │          │      no_chat.png
+    │          │      number_base.png
+    │          │      qav_audio_lock_btn_p.png
+    │          │      qb_down.png
+    │          │      qb_right.png
+    │          │      qb_scan_btn_flash_disable.png
+    │          │      qb_scan_btn_flash_down.png
+    │          │      qb_scan_btn_flash_nor.png
+    │          │      qb_scan_btn_myqrcode_down.png
+    │          │      qb_scan_btn_myqrcode_nor.png
+    │          │      qb_scan_btn_photo_down.png
+    │          │      qb_scan_btn_photo_nor.png
+    │          │      qb_tenpay_loading_back_bg.png
+    │          │      qfav_list_thumb_qzone.png
+    │          │      qfile_dataline_pc_fa.png
+    │          │      qq_contact_list_add_bt_common.png
+    │          │      qq_contact_list_add_bt_pressed.png
+    │          │      qq_contact_list_discussion_entry_icon.png
+    │          │      qq_contact_list_friend_entry_icon.png
+    │          │      qq_contact_list_pbaccount_entry_icon.png
+    │          │      qq_contact_list_phone_enter_icon.png
+    │          │      qq_contact_list_troop_entry_icon.png
+    │          │      qq_conversation_icon_calllist_empty.png
+    │          │      qq_leba_list_seek_feeds.png
+    │          │      qq_leba_list_seek_folder.png
+    │          │      qq_leba_list_seek_gamecenter.png
+    │          │      qq_leba_list_seek_individuation.png
+    │          │      qq_leba_list_seek_myfeeds.png
+    │          │      qq_leba_list_seek_neighbour.png
+    │          │      qq_leba_list_seek_saosao.png
+    │          │      qq_setting_qianbao.png
+    │          │      qq_setting_setting.png
+    │          │      qq_setting_shoucang.png
+    │          │      qq_setting_xiangce.png
+    │          │      qrcode_scan_line.png
+    │          │      qvip_pay_wallet_icon_arrow_right_normal.png
+    │          │      qvip_profile_vip_annual_7.png
+    │          │      qzone_feed_hotbar_icon_star.png
+    │          │      qzone_icon_action_sheet_qq.png
+    │          │      qzone_list_icon_arrow.png
+    │          │      refresh_arrow.png
+    │          │      refresh_arrow_2.png
+    │          │      search.png
+    │          │      skin_about_brand.png
+    │          │      skin_conversation_title_right_btn.png
+    │          │      skin_conversation_title_right_btn_selected.png
+    │          │      skin_indicator_expanded.9.png
+    │          │      skin_indicator_unexpanded.9.png
+    │          │      skin_qzone_title_progress.png
+    │          │      skin_tab_icon_contact_normal.png
+    │          │      skin_tab_icon_contact_selected.png
+    │          │      skin_tab_icon_conversation_normal.png
+    │          │      skin_tab_icon_conversation_selected.png
+    │          │      skin_tab_icon_plugin_normal.png
+    │          │      skin_tab_icon_plugin_selected.png
+    │          │      skin_tab_icon_setup_normal.png
+    │          │      skin_tab_icon_setup_selected.png
+    │          │      status_online.png
+    │          │      status_online_btn.png
+    │          │      terminal_icon_ios.png
+    │          │      terminal_icon_ios_pressed.png
+    │          │      terminal_icon_mobile.png
+    │          │      terminal_icon_pc.png
+    │          │      toolbar.png
+    │          │      toolbar_right.png
+    │          │      wifi_state0.png
+    │          │      wifi_state4.png
+    │          │      zebra_ic_album.png
+    │          │      zebra_ic_bt_normal.png
+    │          │      
+    │          ├─drawable-mdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          ├─drawable-xhdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          └─drawable-xxhdpi
+    │                  ic_launcher.png
+    │                  
+    ├─gen
+    │  └─com
+    │      └─qq
+    │              BuildConfig.java
+    │              R.java
+    │              
+    ├─libs
+    │      android-support-v4.jar
+    │      zxing-1.6.jar
+    │      
+    ├─res
+    │  ├─anim
+    │  │      activity_down.xml
+    │  │      activity_up.xml
+    │  │      fade_in.xml
+    │  │      fade_out.xml
+    │  │      login_anim.xml
+    │  │      pop_down.xml
+    │  │      pop_enter.xml
+    │  │      pop_out.xml
+    │  │      pop_up.xml
+    │  │      
+    │  ├─drawable
+    │  │      bar_constact.xml
+    │  │      bar_deynaimic.xml
+    │  │      bar_news.xml
+    │  │      bar_setting.xml
+    │  │      btn_bottom_last.xml
+    │  │      buttom_bar_font.xml
+    │  │      checkbox.xml
+    │  │      list_group_item_background.xml
+    │  │      ll_bg.xml
+    │  │      ll_bg_d.xml
+    │  │      ll_top_bg.xml
+    │  │      login_btn.xml
+    │  │      login_et_bg.xml
+    │  │      login_picture_bg.xml
+    │  │      pop_bg.xml
+    │  │      progressbar_bg.xml
+    │  │      qq_constact.xml
+    │  │      qq_constact_all.xml
+    │  │      qq_constact_font.xml
+    │  │      qq_constact_group.xml
+    │  │      refresh_progress.xml
+    │  │      register_phone_bg.xml
+    │  │      register_user_btn.xml
+    │  │      sacn_pic.xml
+    │  │      scan_ercode.xml
+    │  │      scan_light.xml
+    │  │      sidebar_background.xml
+    │  │      
+    │  ├─drawable-hdpi
+    │  │      acm_inputbox.9.png
+    │  │      add_contacts_look_for_similarity.png
+    │  │      bar_light_pressed.png
+    │  │      boss_unipay_icon_back.png
+    │  │      btn_bottom_last_normal.9.png
+    │  │      btn_bottom_last_pressed.9.png
+    │  │      button_details_gohome.png
+    │  │      channel_qq.png
+    │  │      chat_tool_photo.png
+    │  │      checkbox_normal.png
+    │  │      checkbox_null.png
+    │  │      connect.png
+    │  │      contact_list_buddy_item_bg.9.png
+    │  │      conversation_options_camera.png
+    │  │      conversation_options_multichat.png
+    │  │      conversation_options_qr.png
+    │  │      conversation_options_secretfile.png
+    │  │      conversation_options_share_photo.png
+    │  │      disconnect.png
+    │  │      emotionstore_progresscancelbtn.png
+    │  │      h001.png
+    │  │      icon.png
+    │  │      ic_launcher.png
+    │  │      indicator_expanded.9.png
+    │  │      indicator_unexpanded.9.png
+    │  │      ipaddress_bg.9.png
+    │  │      kangyikun.png
+    │  │      lbs_popup_bg.9.png
+    │  │      list_conversation_press.9.png
+    │  │      login_default_avatar.png
+    │  │      notification.png
+    │  │      no_chat.png
+    │  │      number_base.png
+    │  │      qav_audio_lock_btn_p.png
+    │  │      qb_down.png
+    │  │      qb_right.png
+    │  │      qb_scan_btn_flash_disable.png
+    │  │      qb_scan_btn_flash_down.png
+    │  │      qb_scan_btn_flash_nor.png
+    │  │      qb_scan_btn_myqrcode_down.png
+    │  │      qb_scan_btn_myqrcode_nor.png
+    │  │      qb_scan_btn_photo_down.png
+    │  │      qb_scan_btn_photo_nor.png
+    │  │      qb_tenpay_loading_back_bg.png
+    │  │      qfav_list_thumb_qzone.png
+    │  │      qfile_dataline_pc_fa.png
+    │  │      qq_contact_list_add_bt_common.png
+    │  │      qq_contact_list_add_bt_pressed.png
+    │  │      qq_contact_list_discussion_entry_icon.png
+    │  │      qq_contact_list_friend_entry_icon.png
+    │  │      qq_contact_list_pbaccount_entry_icon.png
+    │  │      qq_contact_list_phone_enter_icon.png
+    │  │      qq_contact_list_troop_entry_icon.png
+    │  │      qq_conversation_icon_calllist_empty.png
+    │  │      qq_leba_list_seek_feeds.png
+    │  │      qq_leba_list_seek_folder.png
+    │  │      qq_leba_list_seek_gamecenter.png
+    │  │      qq_leba_list_seek_individuation.png
+    │  │      qq_leba_list_seek_myfeeds.png
+    │  │      qq_leba_list_seek_neighbour.png
+    │  │      qq_leba_list_seek_saosao.png
+    │  │      qq_setting_qianbao.png
+    │  │      qq_setting_setting.png
+    │  │      qq_setting_shoucang.png
+    │  │      qq_setting_xiangce.png
+    │  │      qrcode_scan_line.png
+    │  │      qvip_pay_wallet_icon_arrow_right_normal.png
+    │  │      qvip_profile_vip_annual_7.png
+    │  │      qzone_feed_hotbar_icon_star.png
+    │  │      qzone_icon_action_sheet_qq.png
+    │  │      qzone_list_icon_arrow.png
+    │  │      refresh_arrow.png
+    │  │      refresh_arrow_2.png
+    │  │      search.png
+    │  │      skin_about_brand.png
+    │  │      skin_conversation_title_right_btn.png
+    │  │      skin_conversation_title_right_btn_selected.png
+    │  │      skin_indicator_expanded.9.png
+    │  │      skin_indicator_unexpanded.9.png
+    │  │      skin_qzone_title_progress.png
+    │  │      skin_tab_icon_contact_normal.png
+    │  │      skin_tab_icon_contact_selected.png
+    │  │      skin_tab_icon_conversation_normal.png
+    │  │      skin_tab_icon_conversation_selected.png
+    │  │      skin_tab_icon_plugin_normal.png
+    │  │      skin_tab_icon_plugin_selected.png
+    │  │      skin_tab_icon_setup_normal.png
+    │  │      skin_tab_icon_setup_selected.png
+    │  │      status_online.png
+    │  │      status_online_btn.png
+    │  │      terminal_icon_ios.png
+    │  │      terminal_icon_ios_pressed.png
+    │  │      terminal_icon_mobile.png
+    │  │      terminal_icon_pc.png
+    │  │      toolbar.png
+    │  │      toolbar_right.png
+    │  │      wifi_state0.png
+    │  │      wifi_state4.png
+    │  │      zebra_ic_album.png
+    │  │      zebra_ic_bt_normal.png
+    │  │      
+    │  ├─drawable-ldpi
+    │  ├─drawable-mdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xhdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xxhdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─layout
+    │  │      activity_login.xml
+    │  │      activity_main.xml
+    │  │      activity_qq_constact.xml
+    │  │      activity_register_phone.xml
+    │  │      activity_register_result.xml
+    │  │      activity_register_userinfo.xml
+    │  │      activity_welcome.xml
+    │  │      app_exit.xml
+    │  │      common_loading_view.xml
+    │  │      common_search_l.xml
+    │  │      common_search_x.xml
+    │  │      common_search_xl.xml
+    │  │      common_search_xxl.xml
+    │  │      common_title_bar.xml
+    │  │      common_url_textview.xml
+    │  │      dialog_scan.xml
+    │  │      fragment_constact.xml
+    │  │      fragment_constact_child.xml
+    │  │      fragment_constact_father.xml
+    │  │      fragment_constact_group.xml
+    │  │      fragment_constact_head_view.xml
+    │  │      fragment_dynamic.xml
+    │  │      fragment_mine.xml
+    │  │      fragment_news.xml
+    │  │      fragment_news_call.xml
+    │  │      fragment_news_camera.xml
+    │  │      fragment_news_code_scan.xml
+    │  │      fragment_news_father.xml
+    │  │      fragment_news_item.xml
+    │  │      fragment_news_pop.xml
+    │  │      fragment_news_qq_item.xml
+    │  │      fragment_news_waterphoto_save.xml
+    │  │      fragment_phone_constact.xml
+    │  │      fragment_phone_constacts_item.xml
+    │  │      fragment_qq_constact.xml
+    │  │      fragment_qq_friend.xml
+    │  │      pc_connect_wifi.xml
+    │  │      refresh_footer.xml
+    │  │      refresh_head.xml
+    │  │      water_camera_page1.xml
+    │  │      water_camera_page2.xml
+    │  │      water_camera_page3.xml
+    │  │      water_camera_page4.xml
+    │  │      water_camera_page5.xml
+    │  │      
+    │  ├─menu
+    │  │      main.xml
+    │  │      
+    │  ├─raw
+    │  │      beep.ogg
+    │  │      
+    │  ├─values
+    │  │      colors.xml
+    │  │      dimens.xml
+    │  │      ids.xml
+    │  │      strings.xml
+    │  │      styles.xml
+    │  │      
+    │  ├─values-sw600dp
+    │  │      dimens.xml
+    │  │      
+    │  ├─values-sw720dp-land
+    │  │      dimens.xml
+    │  │      
+    │  ├─values-v11
+    │  │      styles.xml
+    │  │      
+    │  └─values-v14
+    │          styles.xml
+    │          
+    └─src
+        └─com
+            └─qq
+                │  AsyncTaskBase.java
+                │  MainActivity.java
+                │  
+                ├─activity
+                │      ErcodeScanActivity.java
+                │      LoginActivity.java
+                │      QQconstactActivity.java
+                │      RegisterInfoActivity.java
+                │      RegisterPhoneActivity.java
+                │      RegisterResultActivity.java
+                │      WaterCameraActivity.java
+                │      WaterPhotoActivity.java
+                │      WelcomeActivity.java
+                │      WiFiActivity.java
+                │      
+                ├─adapter
+                │      CallAdapter.java
+                │      ConstactAdapter.java
+                │      ExpAdapter.java
+                │      NewsAdapter.java
+                │      QQconstactAdapter.java
+                │      QQfriendAdapter.java
+                │      
+                ├─bean
+                │      RecentChat.java
+                │      
+                ├─ercode
+                │      AutoFocusCallback.java
+                │      CameraConfigurationManager.java
+                │      CameraManager.java
+                │      CaptureActivityHandler.java
+                │      DecodeFormatManager.java
+                │      DecodeHandler.java
+                │      DecodeThread.java
+                │      FinishListener.java
+                │      FlashlightManager.java
+                │      InactivityTimer.java
+                │      Intents.java
+                │      PlanarYUVLuminanceSource.java
+                │      PreviewCallback.java
+                │      ViewfinderResultPointCallback.java
+                │      
+                ├─fragment
+                │      CallFragment.java
+                │      ConstactFatherFragment.java
+                │      ConstactFragment.java
+                │      DynamicFragment.java
+                │      NewsFatherFragment.java
+                │      NewsFragment.java
+                │      PhoneConstactFragment.java
+                │      QQconstactFragment.java
+                │      QQfriendFragment.java
+                │      SettingFragment.java
+                │      WIFIFragment.java
+                │      
+                ├─sort
+                │      CharacterParser.java
+                │      ClearEditText.java
+                │      PinyinComparator.java
+                │      SideBar.java
+                │      SortAdapter.java
+                │      SortModel.java
+                │      
+                ├─test
+                │      SDManager.java
+                │      TestData.java
+                │      
+                ├─util
+                │      ConstactUtil.java
+                │      FileUtil.java
+                │      ImgUtil.java
+                │      RemoteUtil.java
+                │      SpUtil.java
+                │      SystemMethod.java
+                │      
+                ├─view
+                │      CustomerScrollView.java
+                │      CustomListView.java
+                │      ErcodeScanView.java
+                │      IphoneTreeView.java
+                │      LoadingView.java
+                │      TextURLView.java
+                │      TitleBarView.java
+                │      WaterView.java
+                │      
+                └─wifi
+                    ├─cmd
+                    │      CmdAbstractListing.java
+                    │      CmdAbstractStore.java
+                    │      CmdAPPE.java
+                    │      CmdCDUP.java
+                    │      CmdCWD.java
+                    │      CmdDELE.java
+                    │      CmdFEAT.java
+                    │      CmdLIST.java
+                    │      CmdMap.java
+                    │      CmdMKD.java
+                    │      CmdNLST.java
+                    │      CmdNOOP.java
+                    │      CmdOPTS.java
+                    │      CmdPASS.java
+                    │      CmdPASV.java
+                    │      CmdPORT.java
+                    │      CmdPWD.java
+                    │      CmdQUIT.java
+                    │      CmdRETR.java
+                    │      CmdRMD.java
+                    │      CmdRNFR.java
+                    │      CmdRNTO.java
+                    │      CmdSIZE.java
+                    │      CmdSTOR.java
+                    │      CmdSYST.java
+                    │      CmdTemplate.java
+                    │      CmdTYPE.java
+                    │      CmdUSER.java
+                    │      FtpCmd.java
+                    │      
+                    └─foregin
+                            Account.java
+                            DataSocketFactory.java
+                            Defaults.java
+                            FileInfo.java
+                            FTPServerService.java
+                            GlobalConsts.java
+                            Globals.java
+                            NormalDataSocketFactory.java
+                            ProxyConnector.java
+                            ProxyDataSocketFactory.java
+                            ProxyDataSocketInfo.java
+                            SessionThread.java
+                            Settings.java
+                            TcpListener.java
+                            UiUpdater.java
+                            
