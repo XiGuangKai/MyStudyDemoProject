@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mytest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--1个intent-filter-->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--没有intent-filter-->
+        <activity android:name=".Main2Activity" />
+
+        <!--多个intent-filter-->
+        <activity android:name=".Main3Activity">
+            <intent-filter>
+                <action android:name="com.mytest.MyIntentAction" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="aa/bb"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mytest.MyIntentAction1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="myIntent1" android:host="8080"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mytest.MyIntentAction2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="myIntent2"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
